@@ -1,3 +1,7 @@
+//A Soma dos Ímpares*
+//Dado um número limite N (ex: 20), crie um laço de repetição que passe por todos os números de 1 até N e some apenas os números ímpares. Imprima o resultado final dessa soma.
+
+
 import java.util.Scanner;
 
 public class SomaImpares {
