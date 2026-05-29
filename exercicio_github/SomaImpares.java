@@ -21,7 +21,7 @@ public class SomaImpares {
             }
         }
 
-        System.out.println("A soma dos números ímpares é: " + soma);
+        System.out.printf("A soma dos números ímpares é: %.2f%n", (double) soma);
 
         scanner.close();
     }
