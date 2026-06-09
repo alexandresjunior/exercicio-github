@@ -8,12 +8,17 @@ public class Questao01FolhaPagamento {
 
         int horasTrabalhadas;
         double valorHora;
+        double salarioBruto;
 
         System.out.print("Digite a quantidade de horas trabalhadas: ");
         horasTrabalhadas = scanner.nextInt();
 
         System.out.print("Digite o valor da hora: ");
         valorHora = scanner.nextDouble();
+
+        salarioBruto = horasTrabalhadas * valorHora;
+
+        System.out.printf("Salário Bruto: R$ %.2f%n", salarioBruto);
 
         scanner.close();
     }
